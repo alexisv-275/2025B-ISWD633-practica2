@@ -66,23 +66,29 @@ docker run -d --name contenedor4 --network net-curso02 nginx:alpine
 ```
 docker network ls
 ```
+<img width="599" height="201" alt="image" src="https://github.com/user-attachments/assets/fdeeed09-a52e-4dd6-81bb-3f858b98d94d" />
+
 
 # COLOCAR UNA(S) CAPTURAS(S) DE LOS CONTENEDORES CREADOS EN DONDE SE EVIDENCIE A QUÉ RED ESTÁN VINCULADOS
 ```
 docker network inspect net-curso01
+```
+<img width="1158" height="534" alt="image" src="https://github.com/user-attachments/assets/ec9e724f-c593-41ec-bd42-6d3658b27334" />
+
+```
 docker network inspect net-curso02
 ```
-ó
-```
-docker inspect contenedor1 | grep NetworkMode
-docker inspect contenedor2 | grep NetworkMode
-docker inspect contenedor3 | grep NetworkMode
-docker inspect contenedor4 | grep NetworkMode
-```
+<img width="1179" height="374" alt="image" src="https://github.com/user-attachments/assets/9f6e98f9-f1e9-4842-b240-f2d9ec7a8d98" />
+
 
 
 ### Para eliminar las redes creadas
 ```
 docker network rm <nombre de la red>
 ```
+```
+docker network rm net-curso01
+docker network rm net-curso02
+```
+<img width="589" height="301" alt="image" src="https://github.com/user-attachments/assets/c5f851b0-3683-4264-b8f0-e2c36947d416" />
 
