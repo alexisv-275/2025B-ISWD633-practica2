@@ -27,6 +27,8 @@ docker exec -it postgres-server psql -U postgres -d postgres
 
 # COMPLETAR CON UNA CAPTURA DEL LOGIN
 ### Crear la base de datos info, y dentro de esa base la tabla personas, con id (serial) y nombre (varchar), agregar un par de registros en la tabla, obligatorio incluir su nombre.
+<img width="1915" height="1119" alt="image" src="https://github.com/user-attachments/assets/85c88c7a-b599-42d7-9fbf-5c2d97a1b9d0" />
+
 
 ```
 -- Crear base de datos
