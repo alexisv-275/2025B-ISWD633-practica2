@@ -1,5 +1,6 @@
 # Variables de Entorno
 ### ¿Qué son las variables de entorno?
+Variable dinámica del sistema operativo que permite gestionar configuraciones de aplicaciones. 
 # COMPLETAR
 
 ### Para crear un contenedor con variables de entorno
