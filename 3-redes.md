@@ -59,6 +59,7 @@ docker network create net-curso02 -d bridge
 docker run -d --name contenedor1 --network net-curso01 nginx:alpine
 docker run -d --name contenedor2 --network net-curso01 nginx:alpine
 docker run -d --name contenedor3 --network net-curso01 nginx:alpine
+docker network connect net-curso02 contenedor3
 docker run -d --name contenedor4 --network net-curso02 nginx:alpine
 ```
 
