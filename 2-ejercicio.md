@@ -35,9 +35,9 @@ docker run -d \
 # COMPLETAR
 
 La figura presenta el esquema creado en donde los puertos son:
-- a: 5432 (postgres)
+- a: 8080 (puerto externo pgAdmin)
 - b: 80 (puerto interno pgAdmin)
-- c: 8080 (puerto externo pgAdmin)
+- c: 5432 (postgres)
 
 ![Imagen](esquema-2-ejercicio.PNG)
 
