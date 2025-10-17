@@ -38,6 +38,13 @@ Implementé sistemas donde cada contenedor tiene una responsabilidad específica
 
 ---
 
+## Problemas resueltos 
+En el 2-ejercicio.md, fue necesario crear una red ya que se producía el error:
+
+[Error -2] Name does not resolve.
+
+Que significa que el contenedor de pgAdmin (pgadmin-client) no puede encontrar una dirección IP para el nombre del servidor que le diste (postgres-server). Docker no está permitiendo la resolución de nombres entre tus dos contenedores.
+
 ## 📈 Impacto en mi Formación Profesional
 
 Estos conocimientos me preparan para:
